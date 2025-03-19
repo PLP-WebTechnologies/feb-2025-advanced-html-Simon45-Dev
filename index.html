@@ -1,1 +1,81 @@
-
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>HTML Lists, Images, Tables & Forms</title>
+        </head>
+        <body>
+            <h2>HTML Lists.</h2>
+            <h3>Ordered Lists</h3>
+            <ol type="i" start="10">
+                <li>TrackSuit</li>
+                <li>Vest</li>
+                <li>Mens Tight</li>
+                <li>Women Tight</li>
+                <li>Backet Hat</li>
+            
+            </dl>
+            <h2>HTML Images</h2>
+                    <img src="https://images.pexels.com/photos/31109871/pexels-photo-31109871/free-photo-of-cozy-fukuoka-street-scene-at-night.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" height="600" width="600">
+            <h3>HTML Tables</h3>
+            <table border="1">
+                <caption>Contact Details</caption>
+                <thead>
+                    <tr>
+                       
+                       <th>Name</th> 
+                       <th>Address</th> 
+                       <th>Mobile</th> 
+                       <th>Emails</th> 
+                     
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Neo</td>
+                        <td>256 Marula Street PTA</td>
+                        <td>0814342035</td>
+                        <td>bk@gmail.com</td>
+                                               
+                    </tr>
+                    <tr>
+                        <td>Bokamoso</td>
+                        <td>112 Shaka Street JHB</td>
+                        <td>0711074020</td>
+                        <td>asa@gmail.com</td>
+                                            
+                            
+                    </tr>
+                </tfoot>
+            </table>
+            <h3>HTML Forms</h3>
+            <form action="" method="">
+                <label for="full_name">Full Names:</label>
+                <input type="text" id="full_name" name="full_name" placeholder="Enter your full names here" required>
+                <br><br>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <br><br>
+                <label for="languages">Languages</label>
+                <input type="checkbox" name="languages" value="English">English
+                <input type="checkbox" name="languages" value="Afrikaans">Swahili
+                <input type="checkbox" name="languages" value="Sesotho">French
+                <br><br>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option>--Select Country--</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="DR Congo">DR Congo</option>
+                    <option value="USA">USA</option>
+                    <option value="Egypt">Egypt</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Register">
+                <button type="reset">Cancel</button>
+            </form>
+        </body>
+    </html>
